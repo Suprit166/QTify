@@ -3,16 +3,19 @@
     background-position: center;
     height: 270px;
     width: 1440px;
-    /* display: flex; */
-    background-color: #121212;
-    /* justify-content: center; */
+    display: flex;
+    
+
+    justify-content: center; 
+    
+    
 }
 
 .bgImg {
-    background-image: url("../../assets/hero_img.png");
-    width: 799px;
+    
+    /* width: 799px;
     height: 212px;
     margin-top: 103px;
-    margin-left: 327px;
+    margin-left: 327px; */
     
 }
