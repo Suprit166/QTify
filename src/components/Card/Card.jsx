@@ -21,7 +21,7 @@ function Card({ data, type }) {
                                     <Chip
                                         label={`${follows} follows`}
                                         size="small"
-                                        className=""
+                                        className={styles.chip}
                                     />
                                 </div>
                             </div>
@@ -40,7 +40,11 @@ function Card({ data, type }) {
                              <img src={image} alt="song" loading="lazy" />
                             <div className={styles.banner}> 
                                 <div className={styles.pills}>
-                                    <p>{likes} Likes</p>
+                                <Chip
+                                        label={`${likes} likes`}
+                                        size="small"
+                                        className={styles.chip}
+                                    />
                                 </div>
                             </div>
                         </div>
